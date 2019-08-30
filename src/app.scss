@@ -1,0 +1,16 @@
+img {
+  width: 80px;
+}
+
+.app {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "filter filter filter filter"
+    "overview overview overview sidebar";
+
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,8 @@
+.sidebar {
+  grid-area: sidebar;
+
+  &__inner {
+    position: sticky;
+    top: 336px;
+  }
+}

@@ -1,0 +1,25 @@
+.overview {
+  grid-area: overview;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 16px;
+  grid-gap: 16px;
+
+
+  &__avialable {
+    color: green;
+  }
+
+  &__not-avialable {
+    color: red;
+  }
+
+  &__item {
+    cursor: pointer;
+    padding: 8px;
+    &:hover {
+      border: 1px solid #444;
+    } 
+  }
+}
